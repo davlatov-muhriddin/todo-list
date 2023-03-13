@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 1024px;
+    width: calc(100vw - 120px);
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1c8d41;
+    color: #f0f0f0;
+    padding: 30px 0;
+}
+
+.main__wrapper {
+    padding: 30px 0;
+}
+
+.item-lister {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.item-lister__title {
+    margin-bottom: 5px;
+}
+
+.item-lister__form {
+    margin-bottom: 10px;
+}
+
+.form__input {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 1.2em;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:active {
+    scale: 0.95;
+}
+
+.list-group {
+    list-style: none;
+    font-size: 1.2em;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+}
+
+.list-group-item {
+    border-bottom: 2px solid #aaa;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item:hover {
+    background-color: #1c8d41;
+    color: #f0f0f0;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group_controls {
+  display: flex;
+  align-items: center;
+}
+
+.list-controls_edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+  display: none;
+}
+
+.list-controls {
+  display: flex;
+  align-items: center;
+}
+
+.edited-input {
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.fa-solid {
+  font-size: 16px;
+}
+
+.controls-btn {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.controls-btn:hover {
+  background-color: #7D6E83;
+}
+
+.controls-btn:active {
+  scale: 0.5;
+}
+
+.fa-pencil {
+  color: rgb(22, 66, 22);
+}
+
+.fa-pen-nib {
+  color: rgb(214, 177, 13);
+}
+
+.fa-trash {
+  color: crimson;
+}
